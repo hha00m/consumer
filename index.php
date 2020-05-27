@@ -222,7 +222,7 @@ body,body * {
     <!-- SVG Background -->
     <div id="SVGMainHero" class="col-lg-9 col-xl-7 svg-preloader d-none d-lg-block position-absolute top-0 right-0 pr-0" style="margin-top: 105.6px;">
       <figure class="ie-main-hero">
-        <img class="js-svg-injector" src="assets/svg/illustrations/main-hero.svg" alt="Image Description"
+        <img   src="assets/img2/750x750/img2.jpg" alt="Image Description"
              data-img-paths='[
                {"targetId": "#SVGMainHeroImg1", "newPath": "assets/img2/750x750/img2.jpg"}
              ]'
