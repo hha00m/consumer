@@ -14,7 +14,7 @@
   <!-- CSS Front Template -->
   <link rel="stylesheet" href="assets/css/theme.css">
 
-  <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
+  <!-- <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css"> -->
 <style>
 
 body,body * {
@@ -39,11 +39,11 @@ body,body * {
 
 <!-- JS Implementing Plugins -->
 <script src="assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
-<script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+<!-- <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script> -->
 <script src="assets/vendor/typed.js/lib/typed.min.js"></script>
 
 <!-- JS Front -->
-<script src="assets/js/components/hs.fancybox.js"></script>
+<!-- <script src="assets/js/components/hs.fancybox.js"></script> -->
 <script src="assets/js/components/hs.svg-injector.js"></script>
 
 <!-- JS Plugins Init. -->
@@ -53,19 +53,19 @@ body,body * {
     $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
   });
 
-  $(document).on('ready', function () {
-    // initialization of popups
-    $.HSCore.components.HSFancyBox.init('.js-fancybox');
+  // $(document).on('ready', function () {
+  //   // initialization of popups
+  //   $.HSCore.components.HSFancyBox.init('.js-fancybox');
 
-    // initialization of text animation (typing)
-    var typed = new Typed(".u-text-animation.u-text-animation--typing", {
-      strings: ["more professional.", "perfect in every way.", "astonishing."],
-      typeSpeed: 60,
-      loop: true,
-      backSpeed: 25,
-      backDelay: 1500
-    });
-  });
+  //   // initialization of text animation (typing)
+  //   var typed = new Typed(".u-text-animation.u-text-animation--typing", {
+  //     strings: ["more professional.", "perfect in every way.", "astonishing."],
+  //     typeSpeed: 60,
+  //     loop: true,
+  //     backSpeed: 25,
+  //     backDelay: 1500
+  //   });
+  // });
 </script>
   <!-- ========== HEADER ========== -->
   <header id="header" class="u-header u-header--bg-transparent u-header--abs-top-md">
