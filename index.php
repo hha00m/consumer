@@ -224,7 +224,7 @@ body,body * {
       <figure class="ie-main-hero">
         <img class="js-svg-injector" src="assets/svg/illustrations/main-hero.svg" alt="Image Description"
              data-img-paths='[
-               {"targetId": "#SVGMainHeroImg1", "newPath": "assets/img/750x750/img2.jpg"}
+               {"targetId": "#SVGMainHeroImg1", "newPath": "assets/img2/750x750/img2.jpg"}
              ]'
              data-parent="#SVGMainHero">
       </figure>
