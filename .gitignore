@@ -1,0 +1,15 @@
+
+# production
+/dist
+/.vscode
+/assets/img
+/assets/scss
+/assets/media
+/assets/svg
+/assets/ajax
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-error.log
+
